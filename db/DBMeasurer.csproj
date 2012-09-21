@@ -1,0 +1,38 @@
+<VisualStudioProject>
+  <CSHARP ProjectType="local" ProjectVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="2bb1c637-e26a-494a-87e6-ab2f95047aa6">
+    <Build>
+      <Settings AssemblyName="DBMeasurer" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="Library">
+        <Config Name="Debug" AllowUnsafeBlocks="true" DefineConstants="DEBUG;TRACE" DebugSymbols="true" IncrementalBuild="false" NoStdLib="false" Optimize="false" OutputPath="bin\Debug\" WarningLevel="4" />
+        <Config Name="Release" AllowUnsafeBlocks="true" DefineConstants="TRACE" DebugSymbols="false" IncrementalBuild="false" NoStdLib="false" Optimize="true" OutputPath="bin\Release\" WarningLevel="4" />
+      </Settings>
+      <References>
+        <Reference Name="System.Windows" AssemblyName="System.Windows" />
+        <Reference Name="Microsoft.Phone" AssemblyName="Microsoft.Phone" />
+        <Reference Name="System" AssemblyName="System" />
+        <Reference Name="Microsoft.Xna.Framework" AssemblyName="Microsoft.Xna.Framework" />
+        <Reference Name="Coding4Fun.Phone.Controls" AssemblyName="Coding4Fun.Phone.Controls" />
+        <Reference Name="Microsoft.Phone.Controls.Toolkit" AssemblyName="Microsoft.Phone.Controls.Toolkit" />
+        <Reference Name="System.Runtime.Serialization" AssemblyName="System.Runtime.Serialization" />
+        <Reference Name="Microsoft.Xna.Framework.GamerServices" AssemblyName="Microsoft.Xna.Framework.GamerServices" />
+      </References>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="Global.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\Tools\TimeOfDay.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\Rules\MarkList.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\Rules\Complex.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\App.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\Rules\FreqAnalyzer.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\MainPage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\Rules\MarkItem.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\MarkPage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\SettingPage.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\ViewModel\MarkesView.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer\Rules\SettRule.cs" SubType="Code" BuildAction="Compile" />
+        <File RelPath="DBMeasurer.g.resources" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </CSHARP>
+</VisualStudioProject>

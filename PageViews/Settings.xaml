@@ -1,0 +1,71 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="NoiseMap.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot Title="噪音地图">
+            <!--Pivot item one-->
+            <controls:PivotItem Header="设置">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="126" />
+                        <RowDefinition Height="181" />
+                        <RowDefinition Height="181" />
+                        <RowDefinition Height="119*" />
+                    </Grid.RowDefinitions>
+
+                    <toolkit:ToggleSwitch Name="EnableLocation" Grid.Row="0" 
+                                          Checked="EnableLocation_Checked"
+                                          Unchecked="EnableLocation_Unchecked"
+                                          VerticalContentAlignment="Center" >
+                    </toolkit:ToggleSwitch>
+                    <TextBlock TextWrapping="Wrap" Grid.Row="1">
+                        <TextBlock.Text>
+                            允许噪音地图通过"定位服务"使用您当前的位置信息
+                        </TextBlock.Text>
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Grid.Row="1" Height="30" Tap="Privacy_Tap"
+                               Margin="6,41,-6,110">
+                        <Underline>噪音地图隐私声明</Underline>
+                    </TextBlock>
+                    <TextBlock TextWrapping="Wrap" Grid.Row="1" Height="33" 
+                               Margin="6,83,-6,65" Tap="TextBlock_Tap">
+                        有疑问请联系<Underline>baipengfei@gmail.com</Underline>.
+                    </TextBlock>
+                </Grid>
+            </controls:PivotItem>
+
+            <!--Pivot item two-->
+            <controls:PivotItem Header="关于">
+                <Grid HorizontalAlignment="Center" Height="612" Width="422">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="140*" />
+                        <RowDefinition Height="318*" />
+                        <RowDefinition Height="154*" />
+                    </Grid.RowDefinitions>
+                    <TextBlock TextWrapping="Wrap" Width="80" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        测试噪音
+                    </TextBlock>
+                    <Image Source="/images/speaker.png" Height="272" Width="242" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1"></Image>
+                    <TextBlock TextWrapping="Wrap" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        airbai
+                    </TextBlock>
+                </Grid>
+            </controls:PivotItem>
+        </controls:Pivot>
+    </Grid>
+</phone:PhoneApplicationPage>

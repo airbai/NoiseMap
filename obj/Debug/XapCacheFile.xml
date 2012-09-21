@@ -1,0 +1,47 @@
+﻿<xapCache source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\NoiseMap.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="9/20/2012 10:07:58 AM">
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="6/29/2012 2:51:15 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="6/29/2012 2:39:02 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="6/29/2012 2:39:02 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\obj\Debug\NoiseMap.dll" archivePath="NoiseMap.dll" lastWriteTime="9/20/2012 10:07:57 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Coding4Fun.Phone.Controls.dll" archivePath="Coding4Fun.Phone.Controls.dll" lastWriteTime="6/14/2012 4:12:56 PM" />
+  <file source="C:\test\WP7\NM\Binaries\Coding4Fun.Phone.Controls.Toolkit.dll" archivePath="Coding4Fun.Phone.Controls.Toolkit.dll" lastWriteTime="9/14/2012 3:49:10 PM" />
+  <file source="C:\test\WP7\NM\Binaries\Coding4Fun.Phone.Site.Controls.dll" archivePath="Coding4Fun.Phone.Site.Controls.dll" lastWriteTime="6/14/2012 4:12:57 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="9/15/2011 3:36:26 PM" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.Maps.dll" archivePath="Microsoft.Phone.Controls.Maps.dll" lastWriteTime="9/15/2011 3:36:26 PM" />
+  <file source="C:\test\WP7\NM\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="9/20/2012 10:07:52 AM" />
+  <file source="C:\test\WP7\NM\Binaries\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="7/9/2012 5:37:06 PM" />
+  <file source="C:\test\WP7\NM\WeiboSdk\Bin\Debug\WeiboSdk.dll" archivePath="WeiboSdk.dll" lastWriteTime="9/20/2012 10:07:51 AM" />
+  <file source="C:\test\WP7\NM\WeiboSdk\Bin\Debug\SinaBase.dll" archivePath="SinaBase.dll" lastWriteTime="6/25/2012 5:06:49 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Background.png" archivePath="Background.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\blank.png" archivePath="Images\blank.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\flagLocal.png" archivePath="Images\flagLocal.png" lastWriteTime="7/3/2012 4:06:10 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\marker.png" archivePath="Images\marker.png" lastWriteTime="6/13/2012 5:01:16 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\microphone.png" archivePath="Images\microphone.png" lastWriteTime="6/29/2012 2:04:59 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\record.png" archivePath="Images\record.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\speaker.png" archivePath="Images\speaker.png" lastWriteTime="6/29/2012 2:34:49 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\weibo.png" archivePath="Images\weibo.png" lastWriteTime="1/1/1995 8:00:00 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\ZoomIn_Black.png" archivePath="Images\ZoomIn_Black.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\ZoomIn_White.png" archivePath="Images\ZoomIn_White.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\ZoomOut_Black.png" archivePath="Images\ZoomOut_Black.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\ZoomOut_White.png" archivePath="Images\ZoomOut_White.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\SplashScreenImage.jpg" archivePath="SplashScreenImage.jpg" lastWriteTime="6/29/2012 2:42:07 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Images\stop.png" archivePath="Images\stop.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="9/20/2012 10:07:58 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Icons\appbar_publish.png" archivePath="Icons\appbar_publish.png" lastWriteTime="6/29/2012 1:46:47 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Icons\appbar_topic.png" archivePath="Icons\appbar_topic.png" lastWriteTime="6/29/2012 1:46:47 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Icons\appbar_TakePhoto.png" archivePath="Icons\appbar_TakePhoto.png" lastWriteTime="6/29/2012 1:47:18 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Background.png" archivePath="Background.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\blank.png" archivePath="Images\blank.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\flagLocal.png" archivePath="Images\flagLocal.png" lastWriteTime="7/3/2012 4:06:10 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\marker.png" archivePath="Images\marker.png" lastWriteTime="6/13/2012 5:01:16 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\microphone.png" archivePath="Images\microphone.png" lastWriteTime="6/29/2012 2:04:59 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\record.png" archivePath="Images\record.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\speaker.png" archivePath="Images\speaker.png" lastWriteTime="6/29/2012 2:34:49 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\weibo.png" archivePath="Images\weibo.png" lastWriteTime="1/1/1995 8:00:00 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\ZoomIn_Black.png" archivePath="Images\ZoomIn_Black.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\ZoomIn_White.png" archivePath="Images\ZoomIn_White.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\ZoomOut_Black.png" archivePath="Images\ZoomOut_Black.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\ZoomOut_White.png" archivePath="Images\ZoomOut_White.png" lastWriteTime="7/3/2012 10:03:34 AM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\stop.png" archivePath="Images\stop.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+  <file source="C:\test\WP7\NM\SilverlightMicrophoneSample\Bin\Debug\Images\play.png" archivePath="Images\play.png" lastWriteTime="11/17/2010 9:24:42 PM" />
+</xapCache>

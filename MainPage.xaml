@@ -1,0 +1,64 @@
+﻿<phone:PhoneApplicationPage xmlns:mymap="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps" 
+    x:Class="SilverlightMicrophoneSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:controls="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:GoogleTileSource="clr-namespace:NoiseMap.UserControls"
+    xmlns:MSPCMCore="clr-namespace:Microsoft.Phone.Controls.Maps.Core;assembly=Microsoft.Phone.Controls.Maps"
+    xmlns:Coding4Fun="clr-namespace:Coding4Fun.Phone.Controls;assembly=Coding4Fun.Phone.Controls"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="696"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    BackKeyPress="PhoneApplicationPage_BackKeyPress"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+     Loaded="PhoneApplicationPage_Loaded"
+    shell:SystemTray.IsVisible="True" xmlns:my="clr-namespace:System;assembly=System">
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <controls:Pivot Title="噪音地图" Name="pivotMain">
+            <!--Pivot item one-->
+            <controls:PivotItem Header="噪音" TabIndex="0">
+                <Grid>
+                    <!--TitlePanel contains the name of the application and page title-->
+                    <StackPanel x:Name="MainPanel" Grid.Row="0" Margin="12,17,0,28">
+                    </StackPanel>
+                    <Grid Margin="90,156,58,66" Grid.Row="1" Name="recoder" MouseLeftButtonUp="recoder_MouseLeftButtonUp">
+                        <Grid.Background>
+                            <ImageBrush ImageSource="Images/microphone.png" Stretch="Fill"/>
+                        </Grid.Background>
+                    </Grid>
+                    <TextBlock Grid.Row="1" Height="90" Margin="118,44,91,0" Name="txtDB" VerticalAlignment="Top" TextAlignment="Center" Foreground="Lime" Text="0.00" FontSize="72" FontFamily="Segoe WP" DataContext="{Binding}" FontStretch="Normal" />
+                    <TextBlock Grid.Row="1" Height="56" HorizontalAlignment="Left" Margin="21,0,0,0" Name="UserHelp" Text="点击话筒开始测分贝" VerticalAlignment="Top" Width="448" TextAlignment="Center" UseLayoutRounding="False" FontSize="32" />
+                    <!--ContentPanel - place additional content here-->
+                    
+                </Grid>
+            </controls:PivotItem>
+            <!--Pivot item two-->
+            <controls:PivotItem Header="地图" TabIndex="1">
+                <GoogleTileSource:GoogleMapControl x:Name="googleMapControl" Margin="0,0,0,0" />
+            </controls:PivotItem>
+        </controls:Pivot>
+
+    </Grid>
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBar.Buttons>
+                <!--<shell:ApplicationBarIconButton x:Name="recordButton" Text="record" IconUri="/Images/record.png" Click="recordButton_Click" IsEnabled="True"/>
+                <shell:ApplicationBarIconButton x:Name="stopButton" Text="stop" IconUri="/Images/stop.png" Click="stopButton_Click" IsEnabled="False"/>-->
+                <shell:ApplicationBarIconButton x:Name="shareButton" Text="分享到微博" IconUri="Images/weibo.png" Click="shareButton_Click" IsEnabled="False"/>
+                <shell:ApplicationBarIconButton x:Name="makerButton" Text="上传到地图" IconUri="Images/marker.png" Click="markerButton_Click" IsEnabled="False"/>
+            </shell:ApplicationBar.Buttons>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem x:Name="Settings" Click="Settings_Click"  Text="设置" />
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>
